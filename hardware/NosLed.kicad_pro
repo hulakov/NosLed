@@ -551,27 +551,31 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/LOAD+"
+        "pattern": "/BP2876D/LOAD*"
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/DRAIN"
+        "pattern": "/BP2876D/DRAIN"
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/PWR_GND"
+        "pattern": "/BP2876D/PWR_GND"
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/LOAD-"
+        "pattern": "/BP2876D/CS"
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/AC_*"
+        "pattern": "/ACInput/380V"
       },
       {
         "netclass": "PWR",
-        "pattern": "/BP2876/CS"
+        "pattern": "/BP2876D/380V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/ACInput/+380V"
       }
     ]
   },
@@ -708,8 +712,12 @@
       "Root"
     ],
     [
+      "bdab6176-ac0a-4a18-9d63-c9b1528dea2c",
+      "ACInput"
+    ],
+    [
       "60f11f86-c817-4eb5-9dbe-13279180a35c",
-      "BP2876"
+      "BP2876D"
     ]
   ],
   "text_variables": {}
