@@ -522,10 +522,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB Data",
-        "pattern": "*USB_D*"
-      },
-      {
         "netclass": "PWR",
         "pattern": "*5V*"
       },
@@ -534,20 +530,8 @@
         "pattern": "*3V3*"
       },
       {
-        "netclass": "Shunt",
-        "pattern": "*SHUNT*"
-      },
-      {
         "netclass": "PWR",
         "pattern": "*PWR_GND*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "*12V*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "+170V"
       },
       {
         "netclass": "PWR",
@@ -567,15 +551,7 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "/ACInput/380V"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/BP2876D/380V"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/ACInput/+380V"
+        "pattern": "*380V"
       }
     ]
   },
@@ -718,6 +694,14 @@
     [
       "60f11f86-c817-4eb5-9dbe-13279180a35c",
       "BP2876D"
+    ],
+    [
+      "28bc7e25-99ca-436a-bb17-be814d11a6d1",
+      "LNK302PN"
+    ],
+    [
+      "62dae79f-20f1-42ce-ac91-8f6732a4f040",
+      "BP2956XS"
     ]
   ],
   "text_variables": {}

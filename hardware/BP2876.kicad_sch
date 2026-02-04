@@ -10478,75 +10478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b9041a5-dc52-4353-8a50-8193da5df387")
-		(property "Reference" "R302"
-			(at 168.402 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "27K"
-			(at 168.148 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 166.37 83.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4895136-e934-4751-9121-bb531aa164b1")
-		)
-		(pin "1"
-			(uuid "6f85d308-1be0-4f5b-b9eb-a89603f67cf9")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
-					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NosLib:BP2876")
 		(at 182.88 87.63 0)
 		(unit 1)
@@ -10641,6 +10572,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 166.37 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d1e9274-089c-4c3b-ae9c-4b1abd6598bf")
+		(property "Reference" "R302"
+			(at 168.402 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "27K"
+			(at 168.148 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 166.37 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4895136-e934-4751-9121-bb531aa164b1")
+		)
+		(pin "1"
+			(uuid "6f85d308-1be0-4f5b-b9eb-a89603f67cf9")
+		)
+		(instances
+			(project "NosLed"
+				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 154.94 57.15 90)
 		(unit 1)
@@ -10650,7 +10650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d87e829-0d63-4268-95f8-57dbbda2e8de")
-		(property "Reference" "NT301"
+		(property "Reference" "NT302"
 			(at 156.21 55.8799 90)
 			(effects
 				(font
@@ -10704,7 +10704,7 @@
 		(instances
 			(project ""
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
-					(reference "NT301")
+					(reference "NT302")
 					(unit 1)
 				)
 			)
@@ -10997,7 +10997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1674da2-873a-4057-97dc-421670c24441")
-		(property "Reference" "R305"
+		(property "Reference" "R304"
 			(at 233.934 60.198 90)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 		(instances
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
-					(reference "R305")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -11067,7 +11067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c53f6055-f899-4b74-8698-cb2d77c0bfd3")
-		(property "Reference" "NT302"
+		(property "Reference" "NT301"
 			(at 148.59 80.01 0)
 			(effects
 				(font
@@ -11119,7 +11119,7 @@
 		(instances
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
-					(reference "NT302")
+					(reference "NT301")
 					(unit 1)
 				)
 			)
@@ -11134,7 +11134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec18ac3c-354d-41bc-88c9-511b27304944")
-		(property "Reference" "R304"
+		(property "Reference" "R303"
 			(at 205.994 92.964 90)
 			(effects
 				(font
@@ -11186,7 +11186,7 @@
 		(instances
 			(project ""
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/60f11f86-c817-4eb5-9dbe-13279180a35c"
-					(reference "R304")
+					(reference "R303")
 					(unit 1)
 				)
 			)
