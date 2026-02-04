@@ -9832,6 +9832,26 @@
 			)
 		)
 	)
+	(text_box "Rcs = Vref / I = 0.3V / 0.110A = 2.72 Ohm -> 2.7 Ohm\nRovp = (Vovp * Rcs) / (Kovp * L) = (75V * 2.7Ohm) / (5 * 0.0022H) = 18409 Ohm -> 18 kOhm"
+		(exclude_from_sim no)
+		(at 50.8 177.8 0)
+		(size 111.76 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "64bf45ad-0718-4a9a-bba8-5f6cc4c2f2e7")
+	)
 	(junction
 		(at 238.76 69.85)
 		(diameter 0)
@@ -10514,7 +10534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://BP2876D.PDF"
+		(property "Datasheet" "https://taoic.oss-cn-hangzhou.aliyuncs.com/9208/product/HZDZ88_1636526643000.pdf"
 			(at 198.882 74.168 0)
 			(effects
 				(font
@@ -10525,15 +10545,6 @@
 		)
 		(property "Description" ""
 			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet CN" "https://taoic.oss-cn-hangzhou.aliyuncs.com/9208/product/HZDZ88_1636526643000.pdf"
-			(at 199.898 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)

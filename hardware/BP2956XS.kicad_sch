@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "2e10df92-48e4-474f-a581-aa94adbe3c6e")
+	(uuid "bd9cd7b3-51cc-4f77-827e-de4c0f0ada20")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -478,132 +478,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -34743,6 +34617,26 @@
 			)
 		)
 	)
+	(text_box "Rcs = Vref / I = 0.3V / 0.110A = 2.7Ohm\nRovp = (Vovp * Rcs) / (Kovp * L) = (75v * 2.7Ohm) / (12.5 * 0.0022H) = 7360Ohm ~> 7.5KOhm"
+		(exclude_from_sim no)
+		(at 62.23 135.89 0)
+		(size 111.76 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "30a96171-96a7-4375-884d-bbb0066f7b7b")
+	)
 	(junction
 		(at 109.22 66.04)
 		(diameter 0)
@@ -34877,16 +34771,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 88.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4db26447-aa62-46d7-9567-396237083862")
-	)
-	(wire
-		(pts
 			(xy 127 87.63) (xy 127 99.06)
 		)
 		(stroke
@@ -34937,7 +34821,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 99.06) (xy 72.39 99.06)
+			(xy 64.77 99.06) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -34987,7 +34871,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 119.38) (xy 109.22 120.65)
+			(xy 109.22 113.03) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -35004,16 +34888,6 @@
 			(type default)
 		)
 		(uuid "acf2ed83-66be-4c78-8963-7d982d3977e1")
-	)
-	(wire
-		(pts
-			(xy 109.22 113.03) (xy 109.22 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6468993-6e30-4f71-8ac7-4e9b10fddf56")
 	)
 	(wire
 		(pts
@@ -35074,16 +34948,6 @@
 			(justify left bottom)
 		)
 		(uuid "af78381f-27a2-4f1b-8671-1d841f271a26")
-	)
-	(label "PWR_GND"
-		(at 139.7 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7fae456-1b96-4c5b-9009-a1568cb4cde9")
 	)
 	(hierarchical_label "PWM"
 		(shape input)
@@ -35232,74 +35096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 74.93 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "449267c6-a5e2-41f0-b769-94b1ee76133c")
-		(property "Reference" "NT501"
-			(at 74.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 74.93 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 74.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 74.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3688aaa6-baeb-45e6-b214-04e246743061")
-		)
-		(pin "2"
-			(uuid "9ad36f2f-c97f-4cc7-a2fe-2175abacdc18")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/62dae79f-20f1-42ce-ac91-8f6732a4f040"
-					(reference "NT501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NosLib:BP2956XS")
 		(at 109.22 101.6 0)
 		(unit 1)
@@ -35327,7 +35123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 131.318 91.186 0)
 			(effects
 				(font
@@ -35336,7 +35132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://1716788106817.pdf"
+		(property "Datasheet" "kicad-embed://DDWDZ123_1694244723000.pdf"
 			(at 125.222 88.138 0)
 			(effects
 				(font
@@ -35382,76 +35178,6 @@
 			(project ""
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/62dae79f-20f1-42ce-ac91-8f6732a4f040"
 					(reference "U502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 109.22 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63bb09ea-a412-4b47-a0e8-db647858b59a")
-		(property "Reference" "NT503"
-			(at 110.49 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 110.49 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 109.22 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 109.22 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1513e025-4479-45e5-9161-71288a55b1d7")
-		)
-		(pin "2"
-			(uuid "03dd1031-5352-463e-9751-8a5055d5ceac")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/62dae79f-20f1-42ce-ac91-8f6732a4f040"
-					(reference "NT503")
 					(unit 1)
 				)
 			)
@@ -35544,7 +35270,7 @@
 				)
 			)
 		)
-		(property "Value" "3R3"
+		(property "Value" "2R7"
 			(at 132.334 109.474 90)
 			(effects
 				(font
@@ -35612,7 +35338,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27K"
+		(property "Value" "7K5"
 			(at 94.488 96.52 90)
 			(effects
 				(font

@@ -1797,7 +1797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 400v"
+		(property "Value" "15uF 400v"
 			(at 163.83 99.4409 0)
 			(effects
 				(font
@@ -1867,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 400v"
+		(property "Value" "15uF 400v"
 			(at 185.42 99.4409 0)
 			(effects
 				(font
