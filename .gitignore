@@ -1,2 +1,4 @@
 /hardware/NosLed-backups/
 ~*
+*.kicad_sch-bak
+*.bak

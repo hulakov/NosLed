@@ -10321,7 +10321,7 @@
 		)
 		(uuid "a3a3a67b-bea0-4ca8-a4ce-cfd09c388552")
 	)
-	(hierarchical_label "380V"
+	(hierarchical_label "325V"
 		(shape input)
 		(at 140.97 52.07 180)
 		(effects
