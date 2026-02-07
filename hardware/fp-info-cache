@@ -1,4 +1,4 @@
-26844957508621894
+26846727995104709
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73506,6 +73506,13 @@ net tie
 0
 4
 4
+NosLib
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

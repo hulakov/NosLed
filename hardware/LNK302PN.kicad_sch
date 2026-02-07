@@ -305,174 +305,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -759,38 +591,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117-3.3"
+		(symbol "Diode:US1M"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AMS1117-3.3"
-				(at 0 3.175 0)
+			(property "Value" "US1M"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -798,7 +626,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -807,7 +635,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -816,7 +644,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -825,42 +653,76 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-3.3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ultra Fast"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "US1M_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "AMS1117-3.3_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
+			(symbol "US1M_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -875,10 +737,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin passive line
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "VO"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -896,7 +758,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LNK306P"
+		(symbol "Regulator_Switching:LNK306D"
 			(pin_names
 				(offset 1.016)
 			)
@@ -911,7 +773,7 @@
 					)
 				)
 			)
-			(property "Value" "LNK306P"
+			(property "Value" "LNK306D"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -919,7 +781,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:PowerIntegrations_PDIP-8B"
+			(property "Footprint" "Package_SO:PowerIntegrations_SO-8B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -938,7 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LinkSwitch-TN Family, 360mA Output Current, DIP-8B"
+			(property "Description" "LinkSwitch-TN Family, 360mA Output Current, SO-8C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -956,7 +818,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PowerIntegrations?PDIP?8B*"
+			(property "ki_fp_filters" "PowerIntegrations?SO?8B*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -965,7 +827,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LNK306P_0_1"
+			(symbol "LNK306D_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -978,7 +840,7 @@
 					)
 				)
 			)
-			(symbol "LNK306P_1_1"
+			(symbol "LNK306D_1_1"
 				(pin open_collector line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -989,7 +851,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1007,7 +869,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1025,7 +887,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1043,7 +905,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1062,7 +924,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1125,18 +987,6 @@
 		(uuid "0bd01bbc-f47e-4dec-9536-1fd752f2b796")
 	)
 	(junction
-		(at 154.94 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12641149-26aa-4d02-9b69-377bb1ddf8b2")
-	)
-	(junction
-		(at 176.53 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a409e1f-f2a0-4a07-a40e-469b554961f0")
-	)
-	(junction
 		(at 146.05 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1155,10 +1005,10 @@
 		(uuid "2a441268-f547-404d-a661-d8ff59a9974e")
 	)
 	(junction
-		(at 154.94 118.11)
+		(at 214.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "419d2b0b-e344-478e-ba7a-a6dd98e4b9b5")
+		(uuid "4760c5aa-3f78-435a-a2b8-651787f844d5")
 	)
 	(junction
 		(at 175.26 81.28)
@@ -1173,22 +1023,10 @@
 		(uuid "7e51dffb-d456-40d0-9b28-9cfa408b75b0")
 	)
 	(junction
-		(at 143.51 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f44e344-10f8-48d6-9eef-274004e47486")
-	)
-	(junction
 		(at 158.75 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2f2529c-6e3c-4eb4-bc0d-6536b89ba2d2")
-	)
-	(junction
-		(at 119.38 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8146562-0721-4638-8c81-79f94e2851d0")
 	)
 	(junction
 		(at 203.2 81.28)
@@ -1205,16 +1043,6 @@
 			(type default)
 		)
 		(uuid "01798f47-d846-4bf5-b157-d503a4b63bb2")
-	)
-	(wire
-		(pts
-			(xy 193.04 118.11) (xy 176.53 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0499399c-a379-4383-82ed-966a85d99eef")
 	)
 	(wire
 		(pts
@@ -1238,26 +1066,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 154.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19beab59-e434-454f-95d1-73715551698f")
-	)
-	(wire
-		(pts
-			(xy 109.22 118.11) (xy 119.38 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7f9f95-f52b-4edd-aefd-749a4531409b")
-	)
-	(wire
-		(pts
 			(xy 203.2 66.04) (xy 203.2 81.28)
 		)
 		(stroke
@@ -1268,23 +1076,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 119.38 137.16)
+			(xy 214.63 99.06) (xy 226.06 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "261b5f6c-ca7f-45e3-a588-ea228829712d")
-	)
-	(wire
-		(pts
-			(xy 154.94 118.11) (xy 151.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a7463df-c2d7-4565-af3f-87ec2a9ff538")
+		(uuid "25d6c9f7-2811-4b8e-b0ba-ce92ea72c282")
 	)
 	(wire
 		(pts
@@ -1328,36 +1126,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 137.16) (xy 154.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5750a43a-4f11-4863-900b-1601561c6676")
-	)
-	(wire
-		(pts
-			(xy 143.51 144.78) (xy 143.51 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f82d11-f126-4a4d-b4ef-3276f278662d")
-	)
-	(wire
-		(pts
-			(xy 154.94 118.11) (xy 154.94 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d5f994-77c0-4ccb-acb3-64e581125c77")
-	)
-	(wire
-		(pts
 			(xy 185.42 66.04) (xy 175.26 66.04)
 		)
 		(stroke
@@ -1388,26 +1156,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 137.16) (xy 143.51 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ce827f-c86c-4f4b-8be4-7f2a35eb08e0")
-	)
-	(wire
-		(pts
-			(xy 176.53 118.11) (xy 154.94 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77c3dd6b-ba77-4eef-8123-1f3dfef2c57a")
-	)
-	(wire
-		(pts
 			(xy 106.68 66.04) (xy 106.68 73.66)
 		)
 		(stroke
@@ -1425,16 +1173,6 @@
 			(type default)
 		)
 		(uuid "826541a9-c3ea-4b73-92e6-a96576c3d32c")
-	)
-	(wire
-		(pts
-			(xy 154.94 137.16) (xy 176.53 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "830d5604-4ec6-4d94-b688-5cfcd33b224f")
 	)
 	(wire
 		(pts
@@ -1498,16 +1236,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 137.16) (xy 143.51 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4bfeb1-71a6-465d-859e-e4d4b85ab1bc")
-	)
-	(wire
-		(pts
 			(xy 146.05 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -1515,16 +1243,6 @@
 			(type default)
 		)
 		(uuid "bc9ac2d0-185d-4333-a92d-573d7b04892c")
-	)
-	(wire
-		(pts
-			(xy 119.38 118.11) (xy 119.38 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ac9244-bf63-4b0b-9359-3b7d580660b2")
 	)
 	(wire
 		(pts
@@ -1568,16 +1286,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 137.16) (xy 176.53 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0b7b57-507b-4b0d-b2a1-254d567aaf98")
-	)
-	(wire
-		(pts
 			(xy 203.2 81.28) (xy 214.63 81.28)
 		)
 		(stroke
@@ -1585,16 +1293,6 @@
 			(type default)
 		)
 		(uuid "ea3a0eea-f992-4957-8f0b-1d470975651c")
-	)
-	(wire
-		(pts
-			(xy 176.53 118.11) (xy 176.53 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1aa568-35a0-49ea-9814-7ef01d09fa77")
 	)
 	(wire
 		(pts
@@ -1628,16 +1326,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37aff3e-09b1-4a2e-aad2-0d5c752e521c")
-	)
-	(wire
-		(pts
 			(xy 119.38 81.28) (xy 127 81.28)
 		)
 		(stroke
@@ -1667,38 +1355,16 @@
 		)
 		(uuid "0fe0fb23-0cf6-48a1-b1d3-01ce2cb0e677")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 109.22 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ba2a96d-17af-4325-a553-0259edd3411a")
-	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 143.51 144.78 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af6a17e8-ba6c-4418-b0c8-e102f2df90c4")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 193.04 118.11 0)
+		(at 226.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c28757d6-e158-4cd1-834a-0432f532649e")
+		(uuid "7d6d3853-501f-45e2-a5e4-07c8f567a890")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1724,176 +1390,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02bf7a58-49ac-4e7f-85fe-112e102e0a11")
-		(property "Reference" "C404"
-			(at 179.07 72.7709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF 16V"
-			(at 179.07 75.3109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 176.2252 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7018b96-2174-4bd2-a37e-b384b921214f")
-		)
-		(pin "1"
-			(uuid "ab099fd8-8d0d-4695-b7b1-a3224a85485d")
-		)
-		(instances
-			(project ""
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "C104")
-					(unit 1)
-				)
-			)
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 158.75 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0377c62c-b249-446e-a59d-316c297ab2d4")
-		(property "Reference" "D401"
-			(at 161.29 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ES1J"
-			(at 161.29 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71d56df4-be08-4503-b137-8b08a0db4e2d")
-		)
-		(pin "1"
-			(uuid "6c076bb1-bf48-46cb-8702-34af9c33628c")
-		)
-		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
 		(at 214.63 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1902,7 +1398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df3d007-665b-4123-8dd2-dfbae64112bd")
-		(property "Reference" "C406"
+		(property "Reference" "C403"
 			(at 218.44 88.0109 0)
 			(effects
 				(font
@@ -1962,249 +1458,7 @@
 			)
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LNK306P")
-		(at 109.22 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "253eb217-36dc-4116-8e30-78da60e9c621")
-		(property "Reference" "U401"
-			(at 109.22 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LNK306P"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:PowerIntegrations_PDIP-8B"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://LNK304PN.pdf"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LinkSwitch-TN Family, 360mA Output Current, DIP-8B"
-			(at 109.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e6ccf228-2c86-4ff5-af54-3c1d92f506a4")
-		)
-		(pin "7"
-			(uuid "a323ffff-0430-49e0-ab6a-941193fdd873")
-		)
-		(pin "3"
-			(uuid "13ef8850-69f1-46c6-89ab-20d23dfb556c")
-		)
-		(pin "8"
-			(uuid "67292bb6-ef3e-45c7-9a00-6ede5a823c7a")
-		)
-		(pin "1"
-			(uuid "51905749-a08e-465d-a959-c146d2b354bc")
-		)
-		(pin "4"
-			(uuid "13786c1d-84b6-4099-bbd5-ee0860053281")
-		)
-		(pin "2"
-			(uuid "5f605e0e-0744-4a34-ae85-a02411921598")
-		)
-		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "U101")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "U401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3362fc19-143f-48b8-a8c0-fcb1e46a1c37")
-		(property "Reference" "C405"
-			(at 180.34 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 180.34 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 175.5648 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "189fa8bc-ef9a-45ea-b796-119eed5c002a")
-		)
-		(pin "2"
-			(uuid "30c307e9-18b5-44f8-bd8f-9728c9aba028")
-		)
-		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "C105")
-					(unit 1)
-				)
-			)
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36ef9865-a6b2-4c3f-8eaf-e3500bdaffbd")
-		(property "Reference" "C401"
-			(at 123.19 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 123.19 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 118.4148 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90c17575-5661-441e-b692-e5ba3cb6c926")
-		)
-		(pin "2"
-			(uuid "860e0f45-9bef-4fe6-b7a5-60dabd3b9608")
-		)
-		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "C101")
-					(unit 1)
-				)
-			)
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C401")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -2237,7 +1491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 160.02 64.262 90)
 			(effects
 				(font
@@ -2310,7 +1564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
+		(property "Footprint" "Inductor_THT:L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2"
 			(at 189.23 81.28 0)
 			(effects
 				(font
@@ -2368,7 +1622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64492fd4-4089-49dc-97c6-66ad309303e5")
-		(property "Reference" "C402"
+		(property "Reference" "C401"
 			(at 130.81 73.6599 0)
 			(effects
 				(font
@@ -2386,7 +1640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 126.0348 71.12 0)
 			(effects
 				(font
@@ -2428,83 +1682,7 @@
 			)
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 154.94 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64ce8443-cce7-435d-bfdb-0194bedea639")
-		(property "Reference" "C403"
-			(at 158.75 124.8409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF 10V"
-			(at 158.75 127.3809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 155.9052 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 154.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfd7bc2b-2e14-4a82-92ab-5462c4287e47")
-		)
-		(pin "1"
-			(uuid "0e61dd09-ab7e-4be3-8b2f-16f922df539e")
-		)
-		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "C103")
-					(unit 1)
-				)
-			)
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "C403")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2529,7 +1707,7 @@
 			)
 		)
 		(property "Value" "2.2K"
-			(at 150.368 75.438 0)
+			(at 152.146 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +1715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 147.828 74.93 90)
 			(effects
 				(font
@@ -2586,15 +1764,169 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 189.23 66.04 0)
+		(lib_id "Regulator_Switching:LNK306D")
+		(at 109.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fb3d03c-f488-4c12-b3b8-516cdb750d0d")
+		(uuid "936eae0b-ff97-4eb4-9ff2-2f826178ccb0")
+		(property "Reference" "U401"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LNK306D"
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://LNK304PN.pdf"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LinkSwitch-TN Family, 360mA Output Current, SO-8C"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c2aa9803-402f-4c10-8604-a4777f9d0947")
+		)
+		(pin "2"
+			(uuid "18d4951f-ffc7-459e-99e2-7346486f3cd9")
+		)
+		(pin "1"
+			(uuid "5e758333-4467-45ce-8906-feb74877701e")
+		)
+		(pin "8"
+			(uuid "68a9ae8f-a124-4e6b-b264-4012174c378c")
+		)
+		(pin "5"
+			(uuid "2c8e0525-7d03-4d06-8651-fddb1549edce")
+		)
+		(pin "4"
+			(uuid "85c83fee-b69e-4759-b728-062596d8c22d")
+		)
+		(pin "7"
+			(uuid "32700de8-0698-4a15-838b-91760230e11d")
+		)
+		(instances
+			(project ""
+				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7b9c766-f334-408b-bdb4-47c6ee0c62b0")
+		(property "Reference" "C402"
+			(at 171.45 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF 16V"
+			(at 171.45 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 176.2252 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5ca233-2141-4089-8ca7-1af85e556267")
+		)
+		(pin "2"
+			(uuid "8af096c9-e46b-4c40-b521-e320e7058f3d")
+		)
+		(instances
+			(project "NosLed"
+				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:US1M")
+		(at 189.23 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea8feadb-3230-4e3f-a6da-fa48fe24d620")
 		(property "Reference" "D402"
 			(at 189.23 59.69 0)
 			(effects
@@ -2611,7 +1943,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 189.23 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -2620,16 +1961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -2657,18 +1989,12 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7ad15f2-e9fd-41cb-a8b9-85d9914e98ba")
+			(uuid "0e97bf1f-76fa-4534-9220-4d25482581ba")
 		)
 		(pin "1"
-			(uuid "73592828-b540-4c57-a714-d6399aa65fa3")
+			(uuid "3f64a5b5-46ae-4115-94ef-4adfce2205a0")
 		)
 		(instances
-			(project ""
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "D102")
-					(unit 1)
-				)
-			)
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
 					(reference "D402")
@@ -2678,42 +2004,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 143.51 118.11 0)
+		(lib_id "Diode:US1M")
+		(at 158.75 90.17 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd8fdc43-647d-4a70-839e-0c7699b45896")
-		(property "Reference" "U402"
-			(at 143.51 111.76 0)
+		(uuid "f0dff995-781b-4036-bd41-8562ed030ddb")
+		(property "Reference" "D401"
+			(at 156.21 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
-			(at 143.51 114.3 0)
+		(property "Value" "US1M"
+			(at 156.21 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 143.51 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 146.05 124.46 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 163.195 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,8 +2040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 143.51 118.11 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+			(at 158.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,25 +2049,43 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "03e83104-088f-44a2-99c1-bc4c73252c71")
+		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "8ecfb771-f164-42c2-95b5-4bb25e03ae46")
+		(property "Sim.Device" "D"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "99dac79a-f391-422a-9271-4b988c89cad4")
+			(uuid "a715b25c-5750-4602-a2b2-bf2e465d831b")
+		)
+		(pin "1"
+			(uuid "a1f9cc91-28c9-44e6-9bd3-96161fa308f1")
 		)
 		(instances
-			(project "LNK302PN"
-				(path "/24f500a7-d977-47c7-977a-466cbfeebbf6"
-					(reference "U102")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/28bc7e25-99ca-436a-bb17-be814d11a6d1"
-					(reference "U402")
+					(reference "D401")
 					(unit 1)
 				)
 			)
