@@ -993,16 +993,16 @@
 		(uuid "18b862b4-9977-4709-adb6-013765ef6b09")
 	)
 	(junction
-		(at 158.75 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a441268-f547-404d-a661-d8ff59a9974e")
-	)
-	(junction
 		(at 214.63 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50beb874-7cb7-428f-bebc-8b57b414c2b7")
+	)
+	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "592c89c5-9028-41d7-9cbd-bf90152f2c43")
 	)
 	(junction
 		(at 146.05 71.12)
@@ -1017,36 +1017,16 @@
 		(uuid "7e51dffb-d456-40d0-9b28-9cfa408b75b0")
 	)
 	(junction
-		(at 158.75 81.28)
+		(at 175.26 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2f2529c-6e3c-4eb4-bc0d-6536b89ba2d2")
+		(uuid "be3c811f-1d89-4100-b6a5-34f3cbbcc740")
 	)
 	(junction
-		(at 158.75 71.12)
+		(at 175.26 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc0155e2-0943-4d47-bf3d-c3cce045530d")
-	)
-	(wire
-		(pts
-			(xy 158.75 99.06) (xy 214.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01798f47-d846-4bf5-b157-d503a4b63bb2")
-	)
-	(wire
-		(pts
-			(xy 158.75 81.28) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1550e3b4-31b8-406e-8a1f-ed917b64a0f2")
+		(uuid "c57bfb1a-2632-4e88-815c-47ad49e63b09")
 	)
 	(wire
 		(pts
@@ -1160,7 +1140,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 158.75 81.28)
+			(xy 175.26 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836efb8b-d6b1-49a4-b306-f73a783ceab6")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 158.75 81.28)
+			(xy 175.26 86.36) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 158.75 81.28)
+			(xy 119.38 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1220,17 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 175.26 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7db99b3-d33d-4243-9272-6dd43a7b0602")
-	)
-	(wire
-		(pts
-			(xy 74.93 99.06) (xy 158.75 99.06)
+			(xy 74.93 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 158.75 99.06)
+			(xy 175.26 93.98) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1320,13 +1300,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 158.75 71.12)
+			(xy 146.05 71.12) (xy 175.26 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa7862bc-8396-416c-ba24-390cab9e104b")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 214.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab5fab2-71a1-425a-926d-d814a835e4cc")
 	)
 	(label "SOURCE"
 		(at 138.43 81.28 0)
@@ -2001,7 +1991,7 @@
 	)
 	(symbol
 		(lib_id "Diode:US1M")
-		(at 158.75 90.17 90)
+		(at 175.26 90.17 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2010,7 +2000,7 @@
 		(dnp no)
 		(uuid "f0dff995-781b-4036-bd41-8562ed030ddb")
 		(property "Reference" "D401"
-			(at 156.21 88.8999 90)
+			(at 172.72 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2009,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 156.21 91.4399 90)
+			(at 172.72 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2018,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 163.195 90.17 0)
+			(at 179.705 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2027,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
-			(at 158.75 90.17 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2036,7 @@
 			)
 		)
 		(property "Description" "1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
-			(at 158.75 90.17 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2045,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 158.75 90.17 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2054,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 158.75 90.17 0)
+			(at 175.26 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
