@@ -891,6 +891,12 @@
 		(uuid "329dabaf-cd9e-4cef-83dc-70d18d116185")
 	)
 	(junction
+		(at 179.07 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6c4f78-351f-4275-becc-46457ef0ab23")
+	)
+	(junction
 		(at 160.02 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -903,10 +909,22 @@
 		(uuid "7bdb07e2-0669-47ff-9acb-d2793d0fa38e")
 	)
 	(junction
+		(at 179.07 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801dc8bf-0b3a-4a6f-99c1-3f08790b3f8a")
+	)
+	(junction
 		(at 97.79 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a57bda87-a4d5-4b5d-805f-eb1a29cc8907")
+	)
+	(junction
+		(at 198.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac32072d-e0ad-40df-8c9d-857481931149")
 	)
 	(junction
 		(at 78.74 77.47)
@@ -925,6 +943,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c61a43ec-66b0-4fa7-8554-a2a82c57369d")
+	)
+	(junction
+		(at 198.12 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f290a8ab-82d1-4c37-af6e-891a3b1094fa")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd79cb4-340a-40f1-8149-074218cccfb8")
 	)
 	(wire
 		(pts
@@ -948,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 195.58 88.9)
+			(xy 160.02 88.9) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -985,6 +1019,16 @@
 			(type default)
 		)
 		(uuid "5f3d2540-79ba-4c51-bb08-75a46160175d")
+	)
+	(wire
+		(pts
+			(xy 198.12 102.87) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6cd542-6a74-4218-8236-bae3a7992cde")
 	)
 	(wire
 		(pts
@@ -1068,6 +1112,36 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 102.87) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bd81ff-08de-43da-8e18-14a971cda0b0")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc5a55b-153d-43ee-980f-16ad974c65c6")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e695003-08b6-4ed6-82b6-cf1f8ea0e92d")
+	)
+	(wire
+		(pts
 			(xy 121.92 92.71) (xy 121.92 100.33)
 		)
 		(stroke
@@ -1075,6 +1149,16 @@
 			(type default)
 		)
 		(uuid "b0f92472-30d8-4a21-8135-5a0e507590dc")
+	)
+	(wire
+		(pts
+			(xy 179.07 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57670f2-68be-4111-bbc8-6b21560a1676")
 	)
 	(wire
 		(pts
@@ -1088,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 195.58 109.22)
+			(xy 160.02 109.22) (xy 179.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1105,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "c87f6ded-1207-46cf-94e2-9c657f51bced")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 198.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bd5fca-e3bc-4423-ade1-32cc2d2f96b7")
 	)
 	(wire
 		(pts
@@ -1148,6 +1242,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee575a25-de2f-44b3-b015-fff34c54c3b6")
+	)
+	(wire
+		(pts
 			(xy 121.92 100.33) (xy 148.59 100.33)
 		)
 		(stroke
@@ -1188,7 +1292,7 @@
 	)
 	(hierarchical_label "325V"
 		(shape output)
-		(at 195.58 88.9 0)
+		(at 222.25 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1197,9 +1301,9 @@
 		)
 		(uuid "3f66cf7b-33a1-4924-a516-3f3074e5dbe3")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "HI_PWR_GND"
 		(shape output)
-		(at 195.58 109.22 0)
+		(at 222.25 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1339,6 +1443,76 @@
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/bdab6176-ac0a-4a18-9d63-c9b1528dea2c"
 					(reference "RV201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 198.12 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d3a8f0-a6c6-46d9-a825-f17c3617d943")
+		(property "Reference" "C204"
+			(at 201.93 96.9009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.2uF 400v"
+			(at 201.93 99.4409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 199.0852 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cc46399-f144-439b-8bf3-668ed5970337")
+		)
+		(pin "1"
+			(uuid "93d10c7d-de69-4fdf-8c4a-bf74f0589063")
+		)
+		(instances
+			(project "NosLed"
+				(path "/473a9690-2801-417b-8084-b7ef486d51ca/bdab6176-ac0a-4a18-9d63-c9b1528dea2c"
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -1494,10 +1668,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9eeb7b2e-952f-49af-b18f-fb872e63747b")
 		(property "Reference" "C202"
-			(at 163.83 96.9009 0)
+			(at 163.068 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,8 +1678,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 400v"
-			(at 163.83 99.4409 0)
+		(property "Value" "8.2uF 400v"
+			(at 163.322 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 160.9852 102.87 0)
 			(effects
 				(font
@@ -1551,6 +1724,75 @@
 			(project "NosLed"
 				(path "/473a9690-2801-417b-8084-b7ef486d51ca/bdab6176-ac0a-4a18-9d63-c9b1528dea2c"
 					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 179.07 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c567c133-d9dd-4fbc-a1cc-7a19b753d02b")
+		(property "Reference" "C203"
+			(at 182.118 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.2uF 400v"
+			(at 182.118 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 180.0352 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbd84e70-65e2-4066-b8b2-2483fc2ca349")
+		)
+		(pin "1"
+			(uuid "27ac4774-9d93-4591-9b18-22a8e72e44ae")
+		)
+		(instances
+			(project "NosLed"
+				(path "/473a9690-2801-417b-8084-b7ef486d51ca/bdab6176-ac0a-4a18-9d63-c9b1528dea2c"
+					(reference "C203")
 					(unit 1)
 				)
 			)

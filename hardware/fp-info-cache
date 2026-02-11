@@ -1,4 +1,4 @@
-26846727995104709
+26850269657700992
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73506,6 +73506,20 @@ net tie
 0
 4
 4
+NosLib
+TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm
+0
+2
+2
+NosLib
+TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-3-5.08 pitch 5.08mm size 15.2x9.8mm drill 1.3mm pad 2.6mm
+0
+3
+3
 NosLib
 TestPoint_Pad_1.0x1.0mm
 SMD rectangular pad as test Point, square 1.0mm side length
