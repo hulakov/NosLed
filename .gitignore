@@ -3,3 +3,4 @@
 *.kicad_sch-bak
 *.bak
 /hardware/\#auto_saved_files\#
+/hardware/production/

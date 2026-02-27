@@ -591,6 +591,10 @@
       {
         "netclass": "Default",
         "pattern": "/LNK302PN/PWR_GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/BP2876D_COLD/LOAD+"
       }
     ]
   },
