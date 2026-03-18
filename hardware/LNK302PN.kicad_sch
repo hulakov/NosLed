@@ -1481,7 +1481,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF 10V"
+		(property "Value" "470uF 16V"
 			(at 218.44 90.5509 0)
 			(effects
 				(font
@@ -1630,7 +1630,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2mH"
+		(property "Value" "470uF"
 			(at 189.738 86.106 90)
 			(effects
 				(font
@@ -1921,7 +1921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "NosLib:LNK302PN-SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 109.22 81.28 0)
 			(effects
 				(font
@@ -2052,7 +2052,7 @@
 	(symbol
 		(lib_id "Diode:US1M")
 		(at 189.23 52.07 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2060,7 +2060,7 @@
 		(dnp no)
 		(uuid "ea8feadb-3230-4e3f-a6da-fa48fe24d620")
 		(property "Reference" "D401"
-			(at 189.23 45.72 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2068,7 @@
 			)
 		)
 		(property "Value" "US1M"
-			(at 189.23 48.26 0)
+			(at 189.23 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2076,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 189.23 56.515 0)
+			(at 189.23 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
