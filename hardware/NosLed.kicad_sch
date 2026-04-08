@@ -1792,27 +1792,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1837,7 +1833,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1855,7 +1851,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1864,9 +1860,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1874,26 +1870,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -5220,71 +5196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "474058b7-e84a-49a8-9cba-4c9d24615826")
-		(property "Reference" "#PWR0114"
-			(at 261.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.938 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "caaf4db8-915f-4a2c-8830-2486b73ccbcb")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:ESP32-C3-WROOM-02U")
 		(at 241.3 53.34 0)
 		(unit 1)
@@ -5406,7 +5317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5416,7 +5327,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b2006ed-c6c2-4b41-bb90-e5bf6f166bb3")
 		(property "Reference" "H104"
-			(at 264.16 149.8599 0)
+			(at 264.16 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5336,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.16 152.3999 0)
+			(at 264.16 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 152.4 0)
 			(effects
 				(font
@@ -5451,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 152.4 0)
 			(effects
 				(font
@@ -5459,9 +5370,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7f21363f-8ffe-404d-8d93-e1aa0bd30a32")
 		)
 		(instances
 			(project "NosLed"
@@ -6007,136 +5915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "889e4995-c7dc-4ac7-9594-d49f7100ff3f")
-		(property "Reference" "#PWR0116"
-			(at 261.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.938 134.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "015ad0a9-2486-42e6-b5bf-f3c5a28f8199")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bca8e40-0a09-4544-b3e3-98fbfbb2ae2d")
-		(property "Reference" "#PWR0119"
-			(at 261.62 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 156.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb5045aa-52ac-4ba2-8aee-465298f83b56")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 48.26 26.67 90)
 		(unit 1)
@@ -6609,7 +6387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6619,7 +6397,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7d2df72-48b4-4c82-bf9b-a7d2783396e0")
 		(property "Reference" "H102"
-			(at 264.16 126.9999 0)
+			(at 264.16 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +6406,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.16 129.5399 0)
+			(at 264.16 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 129.54 0)
 			(effects
 				(font
@@ -6654,7 +6432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 129.54 0)
 			(effects
 				(font
@@ -6662,9 +6440,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "58b2e662-d36a-435a-a6a7-d52b42f143fb")
 		)
 		(instances
 			(project "NosLed"
@@ -6816,7 +6591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6826,7 +6601,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd210617-6bcc-408e-9bd9-7f713c4035cb")
 		(property "Reference" "H101"
-			(at 264.16 115.5699 0)
+			(at 264.16 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6610,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.16 118.1099 0)
+			(at 264.16 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 118.11 0)
 			(effects
 				(font
@@ -6861,7 +6636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 118.11 0)
 			(effects
 				(font
@@ -6869,9 +6644,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "98cfebbc-09b4-4aaa-a6cf-78ed4973dd5b")
 		)
 		(instances
 			(project "NosLed"
@@ -7157,71 +6929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbd75034-c325-497b-81ba-9022ed432f0d")
-		(property "Reference" "#PWR0118"
-			(at 261.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.684 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cfb8f00-fa36-4884-8777-6058365a258d")
-		)
-		(instances
-			(project "NosLed"
-				(path "/473a9690-2801-417b-8084-b7ef486d51ca"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 57.15 73.66 0)
 		(unit 1)
@@ -7424,7 +7131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "Mechanical:MountingHole")
 		(at 261.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7434,7 +7141,7 @@
 		(fields_autoplaced yes)
 		(uuid "e14e62c0-8e17-46f2-bef2-10609aa3790a")
 		(property "Reference" "H103"
-			(at 264.16 138.4299 0)
+			(at 264.16 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7150,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 264.16 140.9699 0)
+			(at 264.16 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -7469,7 +7176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "Mounting Hole without connection"
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -7477,9 +7184,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "f064f3e0-23a4-4d8e-a977-7c6fea74ed75")
 		)
 		(instances
 			(project "NosLed"
